@@ -12,6 +12,14 @@ body {
     
 }
 
+marquee {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(59, 54, 209) 46%, rgba(0,212,255,1) 100%);
+    font-size: 30px;
+    height: 40px;
+    color: white;
+}
+
 .main {
     background-color: white;
     border: 2px solid black;
@@ -28,6 +36,8 @@ body {
     border: 5px solid black;
     margin: 20px;
     background-color: wheat;
+    border-radius: 8px;
+    z-index: 1;
     
 }
 
@@ -36,3 +46,4 @@ body {
     flex-direction: row;
 
 }
+
