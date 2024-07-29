@@ -17,5 +17,6 @@ function DropHandler(event){
     event.target.append(targetElm)
 }   
 
+
 ////// اشتباه های من
 // تو حتما به id نیاز داری 
